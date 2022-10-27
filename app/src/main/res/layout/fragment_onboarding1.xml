@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     android:background="#4CAF50"
     android:padding="32dp">
-
     <ImageView
         android:id="@+id/imagen"
         android:layout_width="wrap_content"
@@ -35,9 +34,9 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#FFEB3B"
         android:text="Next"
-        app:layout_constraintTop_toBottomOf="@id/texto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/texto" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
